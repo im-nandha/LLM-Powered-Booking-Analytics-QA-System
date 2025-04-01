@@ -137,6 +137,14 @@ a 2e-5 learning rate. The full training script is accessible in this current rep
 We use the concatenation from multiple datasets to fine-tune our model. The total number of sentence pairs is above 1 billion sentences.
 We sampled each dataset given a weighted probability which configuration is detailed in the `data_config.json` file.
 
+#MODELS LISTS 
+
+| Model Name           | Download Link |
+|----------------------|--------------|
+| faiss_index.bin | [Download]([https://drive.google.com/your_model_link](https://drive.google.com/file/d/1L1P6iVQxcOqNo7zBTG-chc6lAe1CTL1r/view?usp=sharing)) |
+| model.safetensor        | [Download]([https://huggingface.co/your_model_repo](https://drive.google.com/file/d/1r3f4xe-7ZcyR7Lf3JV87MJ_Slm-eNeCt/view?usp=sharing)) |
+| processed_data.pkl | [Download]([https://www.kaggle.com/datasets/your_dataset](https://drive.google.com/file/d/1rJUOQ7jOGaUIbSnT2OqnoyGtWM_zYG1w/view?usp=drive_link)) |
+
 
 | Dataset                                                  | Paper                                    | Number of training tuples  |
 |--------------------------------------------------------|:----------------------------------------:|:--------------------------:|
